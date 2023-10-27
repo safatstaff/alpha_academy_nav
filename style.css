@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+.srs_nav {
+display: flex;
+width: 100%;
+
+}
+
+.srs_nav div{
+    width: 100%;
+}
+.srs_upper_sec_nav{
+display: flex;
+}
+
+.srs_input_Nav{
+    display: flex;
+    justify-content: space-between;
+    width: 46.4% !important;
+    border-left: 1px solid rgba(21, 25, 67, 0.10);
+    border-bottom: 1px solid rgba(21, 25, 67, 0.10);
+
+}
+.srs_input_Nav input{
+    border:none !important;
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+}
+.srs_input_Nav input::placeholder{
+    color: rgba(21, 25, 67, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.srs_input_Nav input:active{
+    outline: none;
+    border:none !important;
+}
+.srs_input_Nav input:focus{
+    outline: none;
+    border:none !important;
+}
+
+
+.srs_input_Nav a{
+    background-color: #377D1E;
+    border:none;
+    padding: 16px 24px 16px 24px;
+
+}
+.srs_nav_items{
+    display: flex;
+width: 57.5% !important;
+border-bottom: 1px solid rgba(21, 25, 67, 0.10);
+}
+
+.srs_nav_items ul {
+    background: #151943;
+    padding:16px 40px 16px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    list-style: none;
+    margin: 0px;
+    
+}
+.srs_nav_items ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+
+}
+
+.srs_sign_up_btn{
+    padding: 22px 40px 22px 40px ;
+    color: #FFF;
+    background: #377D1E;
+    border: none !important;
+    text-decoration: none;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.srs_lower_sec_nav{
+ display: flex;
+ align-items: center !important;
+}
+.srs_lower_sec_nav a{
+    border:1px solid rgba(21, 25, 67, 0.10);
+width: 340px;
+text-decoration: none;
+text-transform: uppercase;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #002333;
+}
+.srs_lower_sec_nav a:hover{
+    color:#00618D;
+}
+.srs_lower_sec_nav a div{
+    padding: 30.5px 0px 30.5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
